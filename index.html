@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fink Horejsh, LLC | Structural Engineering</title>
+    <meta name="description" content="Fink Horejsh, LLC provides professional structural engineering services for residential and commercial projects.">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #1f3a5f;
+            --accent: #4a90a4;
+            --dark: #222;
+            --light: #f7f9fb;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: var(--light);
+            padding: 80px 40px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            font-size: 18px;
+        }
+
+        .btn {
+            background: var(--primary);
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 4px;
+        }
+
+        .section {
+            padding: 70px 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: var(--primary);
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 6px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+        }
+
+        .card h4 {
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .about {
+            background: var(--light);
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            background: var(--primary);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+
+            .hero h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Fink Horejsh, LLC</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Structural Engineering You Can Trust</h2>
+    <p>
+        Fink Horejsh, LLC provides reliable, efficient, and code-compliant
+        structural engineering services for residential and commercial projects.
+    </p>
+    <a class="btn" href="#contact">Request a Consultation</a>
+</section>
+
+<section class="section" id="services">
+    <h3>Our Services</h3>
+    <div class="grid">
+        <div class="card">
+            <h4>Structural Design</h4>
+            <p>Design of structural systems for residential and commercial buildings with a focus on safety and constructability.</p>
+        </div>
+        <div class="card">
+            <h4>Structural Analysis</h4>
+            <p>Evaluation of existing structures for renovations, additions, and changes in use.</p>
+        </div>
+        <div class="card">
+            <h4>Foundation Design</h4>
+            <p>Design of shallow and deep foundations based on site conditions and project requirements.</p>
+        </div>
+        <div class="card">
+            <h4>Construction Support</h4>
+            <p>Shop drawing review, field observations, and engineering consultation during construction.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section about" id="about">
+    <h3>About Us</h3>
+    <p style="max-width:800px; margin:auto; text-align:center;">
+        Fink Horejsh, LLC is a professional structural engineering firm committed
+        to delivering practical and dependable solutions. We collaborate closely
+        with owners, architects, and contractors to ensure each project meets
+        applicable codes while remaining efficient and cost-effective.
+    </p>
+</section>
+
+<section class="section contact" id="contact">
+    <h3>Contact Us</h3>
+    <p>
+        Ready to discuss your project? We’d be happy to help.
+    </p>
+    <p style="margin-top:20px;">
+        📧 <strong>Email:</strong> info@finkhorejsh.com<br>
+        📞 <strong>Phone:</strong> (XXX) XXX-XXXX
+    </p>
+</section>
+
+<footer>
+    © 2026 Fink Horejsh, LLC · Structural Engineering Services
+</footer>
+
+</body>
+</html>
